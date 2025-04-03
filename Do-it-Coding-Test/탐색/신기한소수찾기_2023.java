@@ -8,6 +8,10 @@ public class 신기한소수찾기_2023 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        DFS(2, 1);
+        DFS(3, 1);
+        DFS(5, 1);
+        DFS(7, 1);
     }
 
     static void DFS(int number, int jarisu){
