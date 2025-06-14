@@ -11,7 +11,7 @@ public class 벨만포드_11657 {
     static int n, m;
     static long[] distance; //정답 배열
     static Edge[] edges;    //도시 연결 정보
-    public static void main(String args) throws IOException {
+    public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
@@ -24,7 +24,7 @@ public class 벨만포드_11657 {
             int s = Integer.parseInt(st.nextToken());
             int e = Integer.parseInt(st.nextToken());
             int t = Integer.parseInt(st.nextToken());
-            edges[m] = new Edge(s,e,t);
+            edges[i] = new Edge(s,e,t);
         }
 
         //벨만 포드 알고리즘 실행
