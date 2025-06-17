@@ -3,7 +3,7 @@ package 그래프;
 import java.util.*;
 import java.io.*;
 
-public class 줄세우기_2252 {
+public class 위상정렬_2252 {
     static ArrayList<Integer>[] arr;
     static int[] indegree;
     static int n;

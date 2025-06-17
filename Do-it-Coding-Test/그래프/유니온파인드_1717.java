@@ -3,7 +3,7 @@ package 그래프;
 import java.util.*;
 import java.io.*;
 
-public class 집합표현하기_1717 {
+public class 유니온파인드_1717 {
     static int[] parent;
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

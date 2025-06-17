@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 
 //다익스트라 기본 중 기본
-public class 최단경로_1753 {
+public class 다익스트라_1753 {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
